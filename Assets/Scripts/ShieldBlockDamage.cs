@@ -29,6 +29,5 @@ public class ShieldBlockDamage : MonoBehaviour
         mat.SetVector("_blockDameCenter", co.contacts[0].point);
 
         Destroy(blockDameDone, 2);
-
     }
 }
